@@ -4,15 +4,18 @@ Checked on 2026-05-01.
 
 ## Adjacent Projects Found
 
-- `claw-codes/wx4py`: WeChat 4.x automation with an AI skill entry point. It is
-  oriented toward UI automation, group messages, bulk sending, announcements,
-  and related WeChat operations.
-- `geekjourneyx/md2wechat-skill`: a skill/CLI workflow for converting Markdown
-  to WeChat article drafts and publishing workflows.
-- `browser-act/wechat-article-search-api-skill`: an agent skill for extracting
-  WeChat article content through an API/browser workflow.
-- `titanwings/ex-skill`: a persona-generation skill that lists WeChat/iMessage
-  as possible data sources.
+- [`claw-codes/wx4py`](https://github.com/claw-codes/wx4py): WeChat 4.x
+  automation with an AI skill entry point. It is oriented toward UI automation,
+  group messages, bulk sending, announcements, chat-history export through the
+  client UI, and related WeChat operations.
+- [`geekjourneyx/md2wechat-skill`](https://github.com/geekjourneyx/md2wechat-skill):
+  a skill/CLI workflow for converting Markdown to WeChat article drafts and
+  publishing workflows.
+- [`browser-act/wechat-article-search-api-skill`](https://github.com/browser-act/skills/tree/main/wechat-article-search-api-skill):
+  an agent skill for extracting WeChat public-account article content through
+  an API/browser workflow.
+- [`titanwings/ex-skill`](https://github.com/titanwings/ex-skill): a
+  persona-generation skill that lists WeChat/iMessage as possible data sources.
 
 ## Gap
 
