@@ -29,21 +29,21 @@ Codex 本地 skill：
 
 ```bash
 mkdir -p ~/.codex/skills
-git clone https://github.com/zsn2003/wechat-extraction-skill ~/.codex/skills/wechat-extraction
+git clone https://github.com/zsn2003/weixin-liaotianjilu-skill ~/.codex/skills/wechat-extraction
 ```
 
 Claude Code 项目内 skill：
 
 ```bash
 mkdir -p .claude/skills
-git clone https://github.com/zsn2003/wechat-extraction-skill .claude/skills/wechat-extraction
+git clone https://github.com/zsn2003/weixin-liaotianjilu-skill .claude/skills/wechat-extraction
 ```
 
 OpenClaw workspace skill：
 
 ```bash
 mkdir -p ~/.openclaw/workspace/skills
-git clone https://github.com/zsn2003/wechat-extraction-skill ~/.openclaw/workspace/skills/wechat-extraction
+git clone https://github.com/zsn2003/weixin-liaotianjilu-skill ~/.openclaw/workspace/skills/wechat-extraction
 ```
 
 安装后重启 agent runtime，让它重新发现 `SKILL.md`。
