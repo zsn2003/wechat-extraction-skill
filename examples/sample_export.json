@@ -1,0 +1,34 @@
+{
+  "chat": "Project Group",
+  "username": "project_group",
+  "exported_at": "2026-05-01T10:00:00Z",
+  "is_group": true,
+  "messages": [
+    {
+      "timestamp": 1777610400,
+      "sender": "Alice",
+      "type": "text",
+      "content": "Please review the launch checklist before Friday."
+    },
+    {
+      "timestamp": 1777614000,
+      "sender": "Bob",
+      "type": "text",
+      "content": "I will confirm the packaging vendor today."
+    },
+    {
+      "timestamp": 1777700400,
+      "sender": "Casey",
+      "type": "file",
+      "content": null,
+      "file": "launch-plan-sample.pdf"
+    },
+    {
+      "timestamp": 1777704000,
+      "sender": "Alice",
+      "type": "voice",
+      "content": null,
+      "media_path": "voice/sample-001.aud"
+    }
+  ]
+}

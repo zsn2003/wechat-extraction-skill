@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WeChat Chat Export",
+  "type": "object",
+  "required": ["chat", "messages"],
+  "properties": {
+    "chat": {
+      "type": "string"
+    },
+    "username": {
+      "type": "string"
+    },
+    "exported_at": {
+      "type": "string"
+    },
+    "is_group": {
+      "type": "boolean"
+    },
+    "messages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["timestamp", "type"],
+        "properties": {
+          "timestamp": {
+            "type": ["integer", "number", "string"]
+          },
+          "sender": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          },
+          "content": {
+            "type": ["string", "null"]
+          },
+          "file": {
+            "type": ["string", "null"]
+          },
+          "media_path": {
+            "type": ["string", "null"]
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

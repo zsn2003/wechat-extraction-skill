@@ -1,0 +1,19 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+# Keep private WeChat data out of this repository.
+*.db
+*.sqlite
+*.sqlite3
+*.jsonl
+all_keys.json
+wechat-exports/
+exports/
+raw/
+private/
+media/
+attachments/
+voice/
+video/
+images/
