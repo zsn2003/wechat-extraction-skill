@@ -1,8 +1,11 @@
-# GitHub Search Notes
+# GitHub Search Notes / GitHub 相似项目调研
 
 Checked on 2026-05-01.
 
-## Adjacent Projects Found
+Keywords checked: 微信聊天记录, 微信导出, WeChat export, Weixin chat records,
+chat history export, Codex skill, Claude Code skill.
+
+## Adjacent Projects Found / 相邻项目
 
 - [`claw-codes/wx4py`](https://github.com/claw-codes/wx4py): WeChat 4.x
   automation with an AI skill entry point. It is oriented toward UI automation,
@@ -17,7 +20,7 @@ Checked on 2026-05-01.
 - [`titanwings/ex-skill`](https://github.com/titanwings/ex-skill): a
   persona-generation skill that lists WeChat/iMessage as possible data sources.
 
-## Gap
+## Gap / 这个仓库填的空白
 
 I did not find a dedicated generic `SKILL.md` repository focused only on
 user-authorized local WeChat chat-record export validation and analysis with

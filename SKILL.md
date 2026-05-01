@@ -1,9 +1,9 @@
 ---
 name: "wechat-extraction"
-description: "Use when the user asks to extract, export, validate, read, analyze, or summarize WeChat/Weixin chat records from their own local device. Follow a user-authorized, local-first workflow with privacy safeguards and structured outputs."
+description: "Use when the user asks to extract, export, validate, read, analyze, or summarize WeChat/Weixin/微信聊天记录 from their own local device. Follow a user-authorized, local-first workflow with privacy safeguards and structured outputs."
 ---
 
-# WeChat Extraction
+# 微信聊天记录提取（WeChat Extraction）
 
 Help a user work with their own WeChat chat records on their own machine. This
 skill is an agent workflow, not a bundled decryptor. It keeps raw data local,
